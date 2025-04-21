@@ -1,10 +1,14 @@
-# React + Vite
+# Secure Notepad
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure, offline-first notepad app built with Electron and React. Each note is encrypted individually with its own password and optional password hint. No data ever leaves your device.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- **Per-note encryption:** Each note is encrypted with a password you choose.
+- **Password hints:** Add a hint to help remember each note's password.
+- **Edit encrypted notes:** Decrypt, update, and re-encrypt notes with new content or passwords.
+- **Offline & standalone:** No internet required. Runs as a desktop app.
+- **No command line needed for users:** Distributable as a Windows executable.
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Expanding the ESLint configuration
